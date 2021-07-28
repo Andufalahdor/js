@@ -1,0 +1,184 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+ 
+    .main-block {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        font-family: sans-serif;
+    }
+
+    .timer-block {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 50px;
+    }
+
+    .menu-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    input[type="button"] {
+        border: 0px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    input[type="button"]:disabled {
+        background-color: rgb(255 161 161);
+    }
+
+    .game-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .left-block, .right-block {
+        background-color: #e6e6e6;
+        width: 300px;
+        height: 300px;
+        box-shadow: 0px 0px 6px 3px #000000bf;
+        display: flex;
+        justify-content: start;
+        justify-items: start;
+        flex-wrap: wrap;
+    }
+
+    .puzzle-box, .puzzle-dropbox {
+    width: 75px;
+    height: 75px;
+    /* border: 1px black solid; */
+    }
+
+    .puzzle-item {
+        width: 75px;
+        height: 75px;
+        background-color: #e3e3e3;
+        background: url(../bg.jpg)
+    }
+
+
+#item1 {
+background-position: 0 0;
+}
+
+#item2 {
+background-position: -75px 0px;
+}
+
+#item3 {
+    background-position: -150px 0px;
+}
+
+#item4 {
+    background-position: -225px 0px;
+}
+
+#item5 {
+    background-position: 0px -75px;
+}
+
+#item6 {
+    background-position: -75px -75px;
+}
+
+#item7 {
+    background-position: -150px -75px;
+}
+
+#item8 {
+    background-position: -225px -75px;
+}
+
+#item9 {
+    background-position: 0px -150px;
+}
+
+#item10 {
+    background-position: -75px -150px;
+}
+
+#item11 {
+    background-position: -150px -150px;
+}
+
+#item12 {
+    background-position: -225px -150px;
+}
+
+#item13 {
+    background-position: 0 -225px;
+}
+
+#item14 {
+    background-position: -75px -225px;
+}
+
+#item15 {
+    background-position: -150px -225px;
+}
+
+#item16 {
+    background-position: -225px -225px;
+}
+
+.modal-container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(0,0,0,0.0);
+    display: none;
+}
+
+.check-box {
+    background-color: white;
+    width: 500px;
+    margin: 100px auto;
+    height: 150px;
+    border-radius: 5px;
+    display: none;
+}
+
+.text-box {
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.text-error {
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.check-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.agree {
+    background-color: green!important;
+}
+.error-box {
+    background-color: white;
+    width: 500px;
+    margin: 100px auto;
+    height: 150px;
+    border-radius: 5px;
+    display: none;
+}

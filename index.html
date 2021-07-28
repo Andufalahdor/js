@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 18 exercise 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="main-block">
+        <div class="timer-block">01:00</div>
+        <div class="menu-block">
+            <form name="menu">
+                <input type="button" value="Start game!" name="start">
+                <input type="button" value="Check result" name="check" disabled>
+                <input type="button" value="New game" name="restart">
+            </form>
+        </div>
+        <div class="game-block">
+            <div class="left-block">
+                <div class="puzzle-box"><div class="puzzle-item" id="item1"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item2"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item3"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item4"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item5"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item6"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item7"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item8"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item9"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item10"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item11"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item12"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item13"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item14"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item15"></div></div>
+                <div class="puzzle-box"><div class="puzzle-item" id="item16"></div></div>
+            </div>
+            <div class="right-block">
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+                <div class="puzzle-dropbox"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-container">
+         <div class="check-box">
+             <div class="text-box">You still have time, you sure?</div>
+             <div class="check-menu">
+                 <input type="button" name="close" value="Close">
+                 <input type="button" name="agree" value="Check" class="agree">
+             </div>
+        </div>
+        <div class="error-box">
+            <div class="text-error">It's a pity, but you lost?</div>
+            <div class="check-menu">
+            <input type="button" name="close" value="Close">
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquerry.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js "></script>
+</body>
+
+</html>
